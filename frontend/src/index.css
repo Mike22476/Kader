@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1f2937;
+  --primary: #003d4a;
+  --secondary: #ffffff;
+  --accent: #e5e7eb;
+  --card-bg: #ffffff;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-color: #f3f4f6;
+  --primary: #00a1b8;
+  --secondary: #1f2937;
+  --accent: #374151;
+  --card-bg: #1f2937;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--secondary);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.list-item {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.list-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.player-card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: var(--shadow);
+  transition: background-color 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.player-card:hover {
+  background-color: var(--accent);
+}
+
+.input,
+.select,
+.button {
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--accent);
+  background-color: var(--secondary);
+  color: var(--text-color);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(0, 85, 102, 0.2);
+}
+
+.button {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #002a35;
+}
+
+.button:disabled {
+  background-color: var(--accent);
+  cursor: not-allowed;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+
+.value-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.specific-badge {
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: white;
+  vertical-align: middle;
+  margin: 0 0.25rem;
+}
+
+.flag-icon {
+  display: inline-block;
+  width: 1.25rem;
+  height: 0.9375rem;
+  vertical-align: middle;
+  margin: 0 0.25rem;
+}
+
+.kader-value {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+[data-theme="dark"] .kader-value {
+  background-color: #00a1b8;
+}
+
+[data-theme="dark"] .player-card {
+  background-color: var(--card-bg);
+}
+
+[data-theme="dark"] .player-card:hover {
+  background-color: var(--accent);
+}
+
+/* Farben für spezifische Positionen */
+.specific-tw { background-color: #10b981; }
+.specific-iv { background-color: #3b82f6; }
+.specific-lv { background-color: #06b6d4; }
+.specific-rv { background-color: #4f46e5; }
+.specific-lav { background-color: #14b8a6; }
+.specific-rav { background-color: #1e3a8a; }
+.specific-rm { background-color: #eab308; }
+.specific-lm { background-color: #f97316; }
+.specific-zm { background-color: #8b5cf6; }
+.specific-dm { background-color: #d97706; }
+.specific-om { background-color: #ec4899; }
+.specific-la { background-color: #ef4444; }
+.specific-ra { background-color: #f43f5e; }
+.specific-st { background-color: #b91c1c; }
+
+/* Darkmode-Anpassungen */
+[data-theme="dark"] .specific-tw { background-color: #34d399; }
+[data-theme="dark"] .specific-iv { background-color: #60a5fa; }
+[data-theme="dark"] .specific-lv { background-color: #22d3ee; }
+[data-theme="dark"] .specific-rv { background-color: #6366f1; }
+[data-theme="dark"] .specific-lav { background-color: #2dd4bf; }
+[data-theme="dark"] .specific-rav { background-color: #1e40af; }
+[data-theme="dark"] .specific-rm { background-color: #facc15; }
+[data-theme="dark"] .specific-lm { background-color: #fb923c; }
+[data-theme="dark"] .specific-zm { background-color: #a78bfa; }
+[data-theme="dark"] .specific-dm { background-color: #f59e0b; }
+[data-theme="dark"] .specific-om { background-color: #f472b6; }
+[data-theme="dark"] .specific-la { background-color: #f87171; }
+[data-theme="dark"] .specific-ra { background-color: #fb7185; }
+[data-theme="dark"] .specific-st { background-color: #dc2626; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

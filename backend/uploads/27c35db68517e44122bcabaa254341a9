@@ -1,0 +1,254 @@
+[
+  {
+    "number": 1,
+    "name": "Timo Horn",
+    "position": "GK",
+    "birthdate": "12.05.1993",
+    "age": 32,
+    "nation": "de",
+    "contract": "2026",
+    "value": "800 Tsd. €"
+  },
+  {
+    "number": 27,
+    "name": "Patrick Drewes",
+    "position": "GK",
+    "birthdate": "04.02.1993",
+    "age": 32,
+    "nation": "de",
+    "contract": "2026",
+    "value": "800 Tsd. €"
+  },
+  {
+    "number": 22,
+    "name": "Niclas Thiede",
+    "position": "GK",
+    "birthdate": "14.04.1999",
+    "age": 26,
+    "nation": "de",
+    "contract": "2027",
+    "value": "350 Tsd. €"
+  },
+  {
+    "number": 4,
+    "name": "Hugo Rölleke",
+    "position": "GK",
+    "birthdate": "06.05.2005",
+    "age": 20,
+    "nation": "de",
+    "contract": "2029"
+  },
+  {
+    "number": 5,
+    "name": "Erhan Masovic",
+    "position": "CB",
+    "birthdate": "22.11.1998",
+    "age": 26,
+    "nation": "rs",
+    "contract": "2026",
+    "value": "3,00 Mio. €"
+  },
+  {
+    "number": 3,
+    "name": "Colin Kleine-Bekel",
+    "position": "CB",
+    "birthdate": "24.01.2003",
+    "age": 22,
+    "nation": "de",
+    "contract": "2028",
+    "value": "2,50 Mio. €"
+  },
+  {
+    "number": 32,
+    "name": "Noah Loosli",
+    "position": "CB",
+    "birthdate": "23.01.1997",
+    "age": 28,
+    "nation": "ch",
+    "contract": "2026",
+    "value": "600 Tsd. €"
+  },
+  {
+    "number": 15,
+    "name": "Maximilian Wittek",
+    "position": "LB",
+    "birthdate": "21.08.1995",
+    "age": 29,
+    "nation": "de",
+    "contract": "2026",
+    "value": "2,00 Mio. €"
+  },
+  {
+    "number": 2,
+    "name": "Felix Passlack",
+    "position": "RB",
+    "birthdate": "29.05.1998",
+    "age": 27,
+    "nation": "de",
+    "contract": "2026",
+    "value": "2,50 Mio. €"
+  },
+  {
+    "number": 24,
+    "name": "Leandro Morgalla",
+    "position": "RB",
+    "birthdate": "13.09.2004",
+    "age": 20,
+    "nation": "de",
+    "contract": "2026",
+    "value": "2,00 Mio. €"
+  },
+  {
+    "number": 6,
+    "name": "Kacper Koscierski",
+    "position": "RB",
+    "birthdate": "23.06.2007",
+    "age": 17,
+    "nation": "de"
+  },
+  {
+    "number": 16,
+    "name": "Ibrahima Sissoko",
+    "position": "DM",
+    "birthdate": "27.10.1997",
+    "age": 27,
+    "nation": "ml",
+    "contract": "2027",
+    "value": "6,00 Mio. €"
+  },
+  {
+    "number": 8,
+    "name": "Niklas Jahn",
+    "position": "DM",
+    "birthdate": "26.07.2004",
+    "age": 20,
+    "nation": "de",
+    "contract": "2027",
+    "value": "200 Tsd. €"
+  },
+  {
+    "number": 19,
+    "name": "Cajetan Lenz",
+    "position": "DM",
+    "birthdate": "16.06.2006",
+    "age": 18,
+    "nation": "de",
+    "contract": "2029"
+  },
+  {
+    "number": 7,
+    "name": "Matus Bero",
+    "position": "CM",
+    "birthdate": "06.09.1995",
+    "age": 29,
+    "nation": "sk",
+    "contract": "2026",
+    "value": "3,50 Mio. €"
+  },
+  {
+    "number": 14,
+    "name": "Moritz-Broni Kwarteng",
+    "position": "CM",
+    "birthdate": "28.04.1998",
+    "age": 27,
+    "nation": "de",
+    "contract": "2027",
+    "value": "1,20 Mio. €"
+  },
+  {
+    "number": 24,
+    "name": "Agon Elezi",
+    "position": "CM",
+    "birthdate": "01.03.2001",
+    "age": 24,
+    "nation": "mk",
+    "contract": "2027",
+    "value": "600 Tsd. €"
+  },
+  {
+    "number": 23,
+    "name": "Mats Pannewig",
+    "position": "CM",
+    "birthdate": "28.10.2004",
+    "age": 20,
+    "nation": "de",
+    "contract": "2028",
+    "value": "600 Tsd. €"
+  },
+  {
+    "number": 10,
+    "name": "Koji Miyoshi",
+    "position": "RM",
+    "birthdate": "26.03.1997",
+    "age": 28,
+    "nation": "jp",
+    "contract": "2028",
+    "value": "1,80 Mio. €"
+  },
+  {
+    "number": 11,
+    "name": "Lukas Daschner",
+    "position": "AM",
+    "birthdate": "01.10.1998",
+    "age": 26,
+    "nation": "de",
+    "contract": "2026",
+    "value": "1,20 Mio. €"
+  },
+  {
+    "number": 28,
+    "name": "Lirim Jashari",
+    "position": "AM",
+    "birthdate": "21.04.2006",
+    "age": 19,
+    "nation": "xk",
+    "contract": "2028"
+  },
+  {
+    "number": 18,
+    "name": "Lennart Koerdt",
+    "position": "AM",
+    "birthdate": "07.01.2005",
+    "age": 20,
+    "nation": "de",
+    "contract": "2027"
+  },
+  {
+    "number": 29,
+    "name": "Samuel Bamba",
+    "position": "RW",
+    "birthdate": "13.02.2004",
+    "age": 21,
+    "nation": "de",
+    "contract": "2027",
+    "value": "800 Tsd. €"
+  },
+  {
+    "number": 33,
+    "name": "Moritz Broschinski",
+    "position": "ST",
+    "birthdate": "23.09.2000",
+    "age": 24,
+    "nation": "de",
+    "contract": "2026",
+    "value": "2,50 Mio. €"
+  },
+  {
+    "number": 9,
+    "name": "Philipp Hofmann",
+    "position": "ST",
+    "birthdate": "30.03.1993",
+    "age": 32,
+    "nation": "de",
+    "contract": "2026",
+    "value": "1,50 Mio. €"
+  },
+  {
+    "number": 20,
+    "name": "Luis Pick",
+    "position": "ST",
+    "birthdate": "05.11.2007",
+    "age": 17,
+    "nation": "de"
+  }
+]
